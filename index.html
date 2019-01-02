@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Mix</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="shortcut icon" href="images/yt.png" />
+</head>
+
+<body>
+    <div class="principal">
+        <header class="cabecalho"></header>
+
+        <section class="corpo">
+            <div id="entrada_dados">
+                <label>Adicione o link de seu vídeo do Youtube</label>
+                <br />
+                <input id="link_video" value="" placeholder="Digite a URL do vídeo que deseja adicionar" autofocus="true"
+                    autocomplete="on" />
+                <button id="bt" onclick="getLista()">Adicionar</button>
+            </div>
+            <div id="playerArea">
+                <iframe id="videoAtual"></iframe>
+                <br />
+                <button id="btn" onclick="getLink()">Reproduzir</button>
+            </div>
+
+        </section>
+
+        <aside id="lista_videos">
+            <h2 id="titulo_da_lista">(Lista Vazia)</h2>
+        </aside>
+
+        <footer>
+            <h3>Cristian Penteado &copy; 2019</h3>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="js/Queue.js"></script>
+    <script src="js/youtubemix.js"></script>
+</body>
+
+</html>

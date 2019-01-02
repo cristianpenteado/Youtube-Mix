@@ -1,0 +1,128 @@
+/*
+FOLHA DE ESTILO EM CASACATA
+
+AUTOR: CRISTIAN PENTEADO
+PROJETO: YOUTUBE MIX
+
+*/
+
+body {
+    background: #f5f5f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    margin: auto;
+    margin-top: 20px;
+}
+
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background: url('../images/youtubemix.png') no-repeat 50% 0%;
+    background-color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 7px #cecece;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    opacity: .8;
+}
+div#entrada_dados{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+input#link_video {
+    width: 310px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px #cecece;
+    border: none;
+    color: #6b4040;
+}
+input#link_video:hover{
+   box-shadow: 0px 0px 10px #999 inset;	
+}
+button#bt{
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 7px #cecece;
+    
+}
+
+button#btn {
+    margin-left: 35%;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.corpo { 
+    width: 700px;
+    height: 100%;
+    background-color: #f5f5f5;
+    float: left;
+    margin-top: 95px;
+    padding: 10px;
+}
+
+iframe#videoAtual {
+    width: 640px;
+    height: 340px;
+    background: url('../images/backgroud_video.jpg') no-repeat 45% 45%;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 7px #cecece;
+}
+
+div#playerArea iframe {
+    width: 640px;
+    height: 340px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 350px;
+    height: 210px;
+    margin: 0;
+}
+
+aside#lista_videos {   
+    width: 300px;
+    text-align: center;
+    background: #e5ece5;
+    display: list-item;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px #cecece;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    float: left;
+    margin-top: 115px; 
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    clear: both;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 15px;
+    margin-top: 10px;
+    bottom: 0;
+    right:  0;
+}
+
